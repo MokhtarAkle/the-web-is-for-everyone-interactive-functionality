@@ -19,7 +19,7 @@ Deze sprint zijn we verder gegaan met het uitbreiden van onze producten gebaseer
 
 ### User story: Als vervoerder wil een smart zone kunnen reserveren, zodat ik mijn plek kan bevestigen
 
-De site wordt geopend op een google Maps kaart en een bijbehorende lijst. Deze lijst is opgebouwd met data gebaseerd op de bestaande smart zones die worden aangeboden door Coding the Curbs. Je kan vervolgens de smartzones selecteren om hun locatie te weergeven op de kaart met wat meer informatie en een optie voor en routebeschrijving. Je hebt ook de opties om je eigen locatie te weergeven en de gewoonlijke features van google maps zoals street view, satteliet modus, zoom etc.
+De site wordt geopend op een Google Maps kaart en een bijbehorende lijst. Deze lijst is opgebouwd met data gebaseerd op de bestaande smart zones die worden aangeboden door Coding the Curbs. Je kan vervolgens de smartzones selecteren om hun locatie te weergeven op de kaart met wat meer informatie en een optie voor en routebeschrijving. Je hebt ook de opties om je eigen locatie te weergeven en de gewoonlijke features van Google maps zoals street view, satelliet modus, zoom etc.
 
 Een nieuwe toevoeging is de reserveer functie, waarmee je een smartzone kan selecteren. Hier wordt om data gevraagd die je vervolgens kan opslaan door op de reserveer knop te klikken. In toekomstige versies kan deze data weer terug weergeven worden om de beschikbaarheid van smartzones te weergeven.
 
@@ -28,7 +28,7 @@ Een nieuwe toevoeging is de reserveer functie, waarmee je een smartzone kan sele
 Node is een onderliggend framework dat er voor zorgt dat we server side code kunnen schrijven en gebruik kunnen maken van verschillende modules zoals Express en EJS.
 
 ### Express
-We gebruiken Express als framework voor onze projecten. Met express kunnen we verschillende routes aanmaken waarin we content kunnen aanbieden als webpaginas. Ook kunnen we gebruik maken van een view engine doormiddel van Express om de opmaak van de HTML makkelijker te maken. Verder kan je statische bestanden aanbieden door een statische route aan te geven via express. Doormiddel van de statische mappen
+We gebruiken Express als framework voor onze projecten. Met express kunnen we verschillende routes aanmaken waarin we content kunnen aanbieden als webpagina's. Ook kunnen we gebruik maken van een view engine door middel van Express om de opmaak van de HTML makkelijker te maken. Verder kan je statische bestanden aanbieden door een statische route aan te geven via express. Door middel van de statische mappen
 
 ![image](https://user-images.githubusercontent.com/45001009/225786527-0d9b018c-66f6-4832-a38a-f345acda4c6b.png)
 
@@ -39,7 +39,7 @@ De view engine die we gebruiken is EJS. Hiermee kan je makkelijk templates van H
 
 
 ### POST
-We maken gebruik van de HTTP POST methode om gebruik gegenereerde data naar de bestaande REST API te sturen. De POST methode wordt aangeroepen doormiddel van een form met de methode post en wordt afgehandeld in JS met een POST route die aangeeft waar en hoe de data terecht moet.
+We maken gebruik van de HTTP POST methode om gebruik gegenereerde data naar de bestaande REST API te sturen. De POST methode wordt aangeroepen door middel van een form met de methode post en wordt afgehandeld in JS met een POST route die aangeeft waar en hoe de data terecht moet.
 
 ```
 router.post('/', (request, response) => {
